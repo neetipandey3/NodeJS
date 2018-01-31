@@ -9,7 +9,7 @@ module.exports = function (mypath, myextension, callback) {
             return callback(err)
         }
         files.forEach(function (fileName){
-        if (path.extname(fileName) == '.' + myextension && typeof fileName != "undefined"){
+        if (path.extname(fileName) == '.' + myextension){
             filelist.push(fileName)
         }
     })
