@@ -1,4 +1,4 @@
-# Nodeshool.io
+# NodeSchool
 
 Programmes submitted as part of NodeSchool workshop challenges
 
