@@ -1,6 +1,6 @@
 /** 
  * LEVEL ME UP SCOTTY!!
- * Basics: BATCH (Exercise 5 of 12)
+ * Streaming (Exercise 6 of 12)
 */
 
 var level = require('level')
