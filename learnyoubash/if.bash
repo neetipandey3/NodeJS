@@ -30,7 +30,7 @@
 END
 
 
-if [[ $1 -lt 12 ]] && [[ $1 -gt 0 ]]; then
+if [[ $1 -lt 12 ]] && [[ $1 -ge 0 ]]; then
     echo "Good morning!"
 elif [[ $1 -gt 12 ]] || [[ $1 -eq 12 ]] && [[ $1 -lt 18 ]]; then
     echo "Good afternoon!"
